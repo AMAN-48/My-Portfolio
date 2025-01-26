@@ -1,7 +1,3 @@
-
-
-
-
 <script>
             const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
             const form = document.forms['google-sheet']
