@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #f53e1d;
+  --color-base: #201658;
+  --color-background: #050a44;
+  --color-brand: #e8f52e;
+  --color-brand2: #deff58;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-body);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-body);
+}
+
+a:hover {
+  color: var(--color-brand);
+}
+
+img {
+  width: 100%;
+}
+
+/*custom css for navbar*/
+
+.navbar {
+  background-color: var(--color-base);
+}
+
+.navbar .nav-link {
+  font-weight: 700;
+  color: #f8eeee;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: 240px;
+  }
+
+  .navbar-brand img {
+    border: 8px solid var(--color-brand);
+  }
+
+  .content-wrapper {
+    padding-left: 240px;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid white;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-weight: 700;
+}
+
+.btn-brand {
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+  color: var(--color-base);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background-color: var(--color-brand2);
+  color: var(--color-base);
+  border-color: var(--color-brand2);
+}
+
+.link-custom {
+  font-weight: 700;
+  position: relative;
+  color: red;
+}
+
+.text-brand {
+  color: var(--color-brand);
+}
+
+.bg-base {
+  background-color: var(--color-base);
+}
+
+.shadow-effect:hover {
+  box-shadow: -6px 6px 0 0 var(--color-brand);
+}
+
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: var(--color-brand);
+  color: var(--color-base);
+}
+
+.card-custom .card-custom-img {
+  overflow: hidden;
+}
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+  background: #0ef;
+  color: #201658;
+  box-shadow: 0 0 20px #0ef;
+}
+.btn-box {
+  display: inline-flex;
+  padding: 12px 28px;
+
+  background: #0ef;
+  border: 2px solid #0ef;
+  border-radius: 40%;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-box:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.text-color {
+  color: red;
+}
