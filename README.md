@@ -25,7 +25,8 @@ To run the portfolio locally, follow these steps:
 - HTML
 - CSS
 - JavaScript
-- Bootstrap 
+- Bootstrap
+  
 
 
 ## Contact
